@@ -41,6 +41,26 @@
     type();
 })();
 
+const toggleButton = document.getElementById('theme-toggle');
+const root = document.documentElement;
+
+  // Load saved theme
+if (localStorage.getItem('theme') === 'light') {
+    root.classList.add('light-mode');
+    toggleButton.textContent = '🌙'; // show moon (switch to dark)
+} 
+else {
+        toggleButton.textContent = '☀️'; // show sun (switch to light)
+}
+
+
+toggleButton.addEventListener('click', () => {
+    root.classList.toggle('light-mode');
+    const isLight = root.classList.contains('light-mode');
+    toggleButton.textContent = isLight ? '🌙' : '☀️';
+    localStorage.setItem('theme', isLight ? 'light' : 'dark');
+});
+
 const sectionBtns = document.querySelectorAll('.btns');
 sectionBtns.forEach((page_btn,idx) => {
     page_btn.addEventListener('click', () => {

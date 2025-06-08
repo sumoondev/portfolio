@@ -18,6 +18,15 @@
     --disabled-color: #fff3;
 }
 
+.light-mode {
+    --bg-color: #ffffff;         
+    --second-bg-color: #f0f2f5;  
+    --main-color: #3b65be;       
+    --white-color: #1f242d;      
+    --disabled-color: #0003;
+}     
+
+
 html {
     font-size: 62.5%;
 }
@@ -56,6 +65,26 @@ nav a.btns {
 nav a:hover,
 nav a.active {
     color: var(--main-color);
+}
+
+#theme-toggle {
+    /* position: fixed; */
+    font-size: 2rem;
+    font-weight: 500;
+    margin-left: 3rem;
+    transition: .5s;
+    background: var(--disabled-color);
+    border: .2rem solid var(--main-color);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    /* border: none; */
+    /* font-size: 1.5rem; */
+    cursor: pointer;
+    color: var(--white-color);
+}
+
+#theme-toggle:hover {
+    color: var(--white-color);
 }
 
 #menu-icon {
