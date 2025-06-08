@@ -97,8 +97,13 @@ section {
 }
 
 @keyframes display-text {
-    25%, 100% {
-        display: none;
+    0%, 25% {
+        opacity: 1;
+        visibility: visible;
+    }
+    26%, 100% {
+        opacity: 0;
+        visibility: hidden;
     }
 }
 
@@ -110,6 +115,7 @@ section {
     color: var(--main-color);
     overflow: hidden;
     white-space: nowrap;
+    display: inline;
     animation: fil-text 4s linear infinite;
 }
 
