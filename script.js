@@ -61,7 +61,7 @@ toggleButton.addEventListener('click', () => {
     localStorage.setItem('theme', isLight ? 'light' : 'dark');
 });
 
-const sectionBtns = document.querySelectorAll('.btns');
+const sectionBtns = document.querySelectorAll('.page.btns');
 sectionBtns.forEach((page_btn,idx) => {
     page_btn.addEventListener('click', () => {
         const sectionPages = document.querySelectorAll('.page');
