@@ -65,7 +65,6 @@ const sectionBtns = document.querySelectorAll('.btns');
 sectionBtns.forEach((page_btn,idx) => {
     page_btn.addEventListener('click', () => {
         const sectionPages = document.querySelectorAll('.page');
-
         sectionBtns.forEach(page_btn => {
             page_btn.classList.remove('active');
         });
