@@ -19,12 +19,20 @@
 }
 
 .light-mode {
+    --bg-color: #e5e5e5;         
+    --second-bg-color: #d1d1d1;  
+    --main-color: #5a6e9c;       
+    --white-color: #2b2b2b;      
+    --disabled-color: #2b2b2b33;
+}
+
+/* .light-mode {
     --bg-color: #ffffff;         
     --second-bg-color: #f0f2f5;  
     --main-color: #3b65be;       
     --white-color: #1f242d;      
     --disabled-color: #0003;
-}     
+}      */
 
 
 html {
@@ -76,7 +84,7 @@ nav a.active {
     background: var(--disabled-color);
     border: .2rem solid var(--main-color);
     border-radius: 4rem;
-    box-shadow: 0 0 1rem var(--main-color);
+    /* box-shadow: 0 0 1rem var(--main-color); */
     /* border: none; */
     /* font-size: 1.5rem; */
     cursor: pointer;
@@ -568,7 +576,7 @@ section.active {
 
 .portfolio-box .numb {
     font-size: 8rem;
-    -webkit-text-stroke: .07rem var(--white-color);
+    -webkit-text-stroke: .19rem var(--white-color);
     color: transparent;
     line-height: 1;
 }
