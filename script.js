@@ -61,21 +61,21 @@ toggleButton.addEventListener('click', () => {
     localStorage.setItem('theme', isLight ? 'light' : 'dark');
 });
 
-const sectionBtns = document.querySelectorAll('.btns');
-sectionBtns.forEach((page_btn,idx) => {
-    page_btn.addEventListener('click', () => {
-        const sectionPages = document.querySelectorAll('.page');
-        sectionBtns.forEach(page_btn => {
-            page_btn.classList.remove('active');
-        });
-        page_btn.classList.add('active');
+// const sectionBtns = document.querySelectorAll('.btns');
+// sectionBtns.forEach((page_btn,idx) => {
+//     page_btn.addEventListener('click', () => {
+//         const sectionPages = document.querySelectorAll('.page');
+//         sectionBtns.forEach(page_btn => {
+//             page_btn.classList.remove('active');
+//         });
+//         page_btn.classList.add('active');
 
-        sectionPages.forEach(pages => {
-            pages.classList.remove('active');
-        });
-        sectionPages[idx].classList.add('active');
-    });
-});
+//         sectionPages.forEach(pages => {
+//             pages.classList.remove('active');
+//         });
+//         sectionPages[idx].classList.add('active');
+//     });
+// });
 
 const resumeBtns = document.querySelectorAll('.resume-btn');
 
