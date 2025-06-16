@@ -608,9 +608,9 @@ section.active {
     margin-right: 1.5rem;
 }
 
-.portfolio-box .live-github a:first-child i {
+/* .portfolio-box .live-github a:first-child i {
     transform: rotate(135deg);
-}
+} */
 
 .portfolio-box .live-github a span {
     position: absolute;
@@ -648,17 +648,14 @@ section.active {
     gap: 2rem;
     height: inherit;
     transition: .5s;
-    overflow: hidden;
 }
 
 .portfolio-carousel .img-item {
     height: inherit;
-    border-radius: 1rem;
-    overflow: hidden;
 }
 
 .portfolio-carousel .img-item img {
-    /* display: block; */
+    display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -679,7 +676,11 @@ section.active {
     font-size: 4rem;
     color: var(--main-color);
     cursor: pointer;
-    margin-top: 15rem;
+}
+
+.portfolio-box .navigation button.disabled {
+    border-color: var(--second-bg-color);
+    color: var(--disabled-color);
 }
 
 .portfolio-box .navigation .arrow-right {
