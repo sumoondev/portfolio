@@ -22,7 +22,7 @@ Personal portfolio website showcasing my skills, projects, and contact informati
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/PhantomBenz/portfolio.git
+   git clone https://github.com/sumoondev/portfolio.git
    cd portfolio
    ```
 
