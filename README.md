@@ -2,7 +2,9 @@
 
 Personal portfolio website showcasing my skills, projects, and contact information.
 
-## Features
+**Under Work**
+
+<!-- ## Features
 
 - Responsive design for all devices
 - Dark/Light mode toggle with persistent preference
@@ -16,7 +18,7 @@ Personal portfolio website showcasing my skills, projects, and contact informati
 - CSS3
 - JavaScript (Vanilla)
 - Font Awesome Icons
-- Google Fonts (Inter)
+- Google Fonts (Inter) -->
 
 ## Local Development
 
@@ -35,7 +37,7 @@ Personal portfolio website showcasing my skills, projects, and contact informati
 
 3. View the site at `http://localhost:8000`
 
-## Domain Configuration
+<!-- ## Domain Configuration
 
 1. Configure your domain registrar's DNS settings:
    - Add an A record pointing to `185.199.108.153`
@@ -44,7 +46,7 @@ Personal portfolio website showcasing my skills, projects, and contact informati
    - Add an A record pointing to `185.199.111.153`
    - Add a CNAME record for `www` pointing to `[username].github.io`
 
-2. Enable HTTPS in your GitHub Pages settings
+2. Enable HTTPS in your GitHub Pages settings -->
 
 ## Deployment
 
