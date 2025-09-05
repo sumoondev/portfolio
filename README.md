@@ -27,16 +27,6 @@ Personal portfolio website showcasing my skills, projects, and contact informati
    git clone https://github.com/sumoondev/portfolio.git
    cd portfolio
    ```
-
-2. Open `index.html` in your browser or use a local server:
-   ```bash
-   python -m http.server 8000
-   # or
-   php -S localhost:8000
-   ```
-
-3. View the site at `http://localhost:8000`
-
 <!-- ## Domain Configuration
 
 1. Configure your domain registrar's DNS settings:
