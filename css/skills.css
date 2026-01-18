@@ -1,0 +1,57 @@
+.skill {
+  margin-bottom: 20px;
+}
+.skill > p {
+  margin-bottom: 10px;
+}
+
+#skills > p {
+  font-family: "Quicksand", sans-serif;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: normal;
+  line-height: 1.8;
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+.skill_percent_box {
+  background: #f2f3f7;
+  border-radius: 8px;
+}
+
+.skill_percent {
+  width: 85%;
+  height: 6px;
+  background: #2c98f0;
+  border-radius: 8px;
+  position: relative;
+  color: #2c98f0;
+}
+
+.skill_percent::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: -2px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: inherit;
+}
+
+.skill_percent > span {
+  position: absolute;
+  top: -22px;
+  right: 0;
+  color: inherit;
+  font-size: 12px;
+  line-height: 1.2;
+  font-weight: 600;
+}
+@media screen and (min-width: 760px) {
+  .skill_box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}

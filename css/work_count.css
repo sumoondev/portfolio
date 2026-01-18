@@ -1,0 +1,49 @@
+#work__count {
+  background-image: url("../image/place.jpeg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 70px 15px;
+  margin-top: 100px;
+  position: relative;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#work__count::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 0;
+}
+
+.count__item {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.count__item span {
+  font-size: 40px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  color: white;
+}
+
+.count__item p {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.7);
+}

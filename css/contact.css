@@ -1,0 +1,35 @@
+.contact__input,
+.contact__textarea {
+  height: 54px;
+  width: 100%;
+  font-family: "Quicksand", serif;
+  font-size: 16px;
+  font-weight: normal;
+  padding: 9px 15px;
+  line-height: 1.5;
+  margin-top: 10px;
+  background-color: #f2f3f7;
+  border: none;
+  outline: none;
+}
+
+.contact__textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.contact__button {
+  cursor: pointer;
+  background: #068244;
+  color: #fff;
+  margin-bottom: 100px;
+  margin-top: 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: "Quicksand", sans-serif;
+  letter-spacing: 1px;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 50px;
+}

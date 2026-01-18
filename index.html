@@ -1,14 +1,277 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sumoon</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-</head>
-<body>
+    <meta
+      name="description"
+      content="I'm Sumoon Byanjankar currently studying computer engineering"
+    />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css\hero.css" />
+    <link rel="stylesheet" href="css\skills.css" />
+    <link rel="stylesheet" href="css\work_count.css" />
+    <link rel="stylesheet" href="css\common.css" />
+    <link rel="stylesheet" href="css\global.css" />
+    <link rel="stylesheet" href="css\sidebar.css" />
+    <link rel="stylesheet" href="css\about.css" />
+    <link rel="stylesheet" href="css\contact.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <nav class="sidebar">
-        
+      <i id="hamburger" class="fa-solid fa-bars sidebar_hamburger"></i>
+
+      <div class="sidebar_content">
+        <img
+          class="sidebar_image"
+          src="image/profile.jpeg"
+          alt="Profile Image"
+        />
+        <ul class="sidebar_list">
+          <li class="side first">
+            <a href="#hero">Home</a>
+          </li>
+          <li class="side second">
+            <a href="#skills">Skills</a>
+          </li>
+          <li class="side third">
+            <a href="#about">About</a>
+          </li>
+          <li class="side fourth">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
     </nav>
-</body>
+
+    <main>
+      <section id="hero">
+        <img src="../image/profile.png" alt="Profile" class="hero-img" />
+        <h1>Sumoon <br />Byanjankar.</h1>
+        <p style="font-size: 24px">
+          I'm&nbsp;
+          <img
+            class="back"
+            src="https://readme-typing-svg.demolab.com?font=Playfair&size=30&duration=3000&pause=500&color=000000&lines=Coder.;Designer.;Gamer."
+            style="
+              height: 2em;
+              vertical-align: middle;
+              transform: translateY(0.25em);
+            "
+            alt="Typing SVG"
+          />
+        </p>
+        <br />
+        <h2>I am an engineering student.</h2>
+        <p>Computer Engineering</p>
+        <button
+          onclick="window.location.href = 'mailto:stu@sumoonbyanjankar.com.np'"
+        >
+          <span>Contact Me</span>
+          <i class="fa-regular fa-envelope"></i>
+        </button>
+      </section>
+
+      <section id="skills" class="section">
+        <span class="section_title">My speciality</span><br />
+
+        <div class="skill_box">
+          <div class="skill">
+            <span>C++</span>
+            <div class="skill_percent_box">
+              <div class="skill_percent">
+                <span>85%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <span>Java</span>
+            <div class="skill_percent_box">
+              <div
+                class="skill_percent"
+                style="width: 60%; background: #ec5453; color: #ec5453"
+              >
+                <span>60%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <span>HTML</span>
+            <div class="skill_percent_box">
+              <div
+                class="skill_percent"
+                style="width: 80%; background: #f9bf3f; color: #f9bf3f"
+              >
+                <span>80%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <span>CSS3</span>
+            <div class="skill_percent_box">
+              <div
+                class="skill_percent"
+                style="width: 40%; background: #4cb87e; color: #a84cb8"
+              >
+                <span>40%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <span>JavaScript</span>
+            <div class="skill_percent_box">
+              <div
+                class="skill_percent"
+                style="width: 30%; background: #817f6e; color: #a84cb8"
+              >
+                <span>30%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <span>Python</span>
+            <div class="skill_percent_box">
+              <div
+                class="skill_percent"
+                style="width: 50%; background: #674cb8; color: #a84cb8"
+              >
+                <span>50%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <span class="section_title" style="color: gray">About ME</span>
+        <h2 class="section_subtitle" style="color: black">who am i?</h2>
+
+        <p class="about__description">
+          <strong>Hi! I am Sumoon Byanjankar,</strong> I am a Computer
+          Engineering undergraduate driven by curiosity and a love for
+          problem-solving. Coding is where I feel most at home—breaking down
+          complex problems and turning ideas into clean, efficient solutions. I
+          primarily work with Java and C++, continuously sharpening my
+          understanding of core programming and system-level concepts. I see
+          myself as an explorer of technology, always eager to learn,
+          experiment, and push beyond what I already know. I am adaptable,
+          self-driven, and motivated to grow in an ever-evolving tech world.
+        </p>
+
+        <div class="about__happy">
+          <h2>
+            I am adaptable, self-driven, and motivated to grow in an
+            ever-evolving tech world.
+          </h2>
+          <button
+            onclick="
+              window.location.href = 'mailto:stu@sumoonbyanjankar.com.np'
+            "
+          >
+            hire me
+          </button>
+        </div>
+        <br />
+
+        <div class="about__skills">
+          <div class="about__box">
+            <i class="fa-brands fa-figma"></i>
+            <h3>UI/UX</h3>
+          </div>
+          <div class="about__box">
+            <i class="fa-solid fa-window-maximize"></i>
+            <h3>App dev</h3>
+          </div>
+          <div class="about__box">
+            <i class="fa-brands fa-firefox-browser"></i>
+            <h3>Web dev</h3>
+          </div>
+        </div>
+      </section>
+
+      <section id="work__count">
+        <div class="count__item">
+          <span>70</span>
+          <p>cups of coffee</p>
+        </div>
+
+        <div class="count__item">
+          <span>9</span>
+          <p>projects</p>
+        </div>
+
+        <div class="count__item">
+          <span>0</span>
+          <p>clients</p>
+        </div>
+
+        <div class="count__item">
+          <span>3</span>
+          <p>partners</p>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <span class="section__title" style="font-size: 18px; color: rgb(11, 51, 2)">
+          <strong>Get</strong> in touch
+        </span>
+        <h2 class="section__subtitle" style="font-size: 20px; margin-top: 20px; font-weight: bold">Contact</h2>
+
+        <form action="" id="contactForm" class="contact__form" onsubmit="submitForm(event)">
+          <input type="text" placeholder="Name" id="name" name="name" class="contact__input"><br>
+          <textarea id="message" class="contact__textarea" name="message" placeholder="Message" rows="4"></textarea><br>
+          <input type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+
+    <script>
+      const hamburger = document.querySelector("#hamburger");
+      const sidebar = document.querySelector(".sidebar_content");
+      const sidebarLinks = document.querySelectorAll(".sidebar_list a");
+
+      hamburger.addEventListener("click", (e) => {
+        e.stopPropagation();
+        document.body.classList.toggle("sidebar-open");
+      });
+
+      sidebarLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+          document.body.classList.remove("sidebar-open");
+        });
+      });
+
+      document.addEventListener("click", (e) => {
+        if (!sidebar.contains(e.target) && !hamburger.contains(e.target)) {
+          document.body.classList.remove("sidebar-open");
+        }
+      });
+
+      function submitForm(event) {
+        event.preventDefault();
+      }
+    </script>
+  </body>
 </html>

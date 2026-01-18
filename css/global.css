@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  background-color: #F2E6D8;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: unset;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+p {
+  all: unset;
+  display: block;
+}
+
+ul,
+li {
+  all: unset;
+}
+
+body.sidebar-open .sidebar_hamburger {
+  transform: translateX(300px);
+}
+
+body.sidebar-open .sidebar_content {
+  transform: translateX(0);
+}
+
+main {
+  transition: width 0.5s ease, margin 0.5s ease;
+  width: 100%; 
+}
+
+body.sidebar-open main {
+  width: calc(100% - 300px);
+  margin-left: 300px; 
+}
+
+body.sidebar-open .hero-img {
+  transform: translateX(300px); 
+}

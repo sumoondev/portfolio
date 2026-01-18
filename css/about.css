@@ -1,0 +1,101 @@
+.about__description {
+  font-family: "Quicksand", sans-serif;
+  font-weight: normal;
+  line-height: 1.8;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.about__description:last-of-type {
+  margin-bottom: 40px;
+}
+
+.about__box {
+  color: #fff;
+  border-bottom: 2px solid #2c98f0; 
+  padding: 24px;
+  box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
+  margin-bottom: 50px;
+  transition-duration: 100ms;
+}
+
+.about__box > i {
+    margin-bottom: 20px;
+    color: #2c98f0;
+    font-size: 30px;
+}
+
+.about__box:hover {
+    transform: scale(1.02);
+}
+
+.about__box > h3 {
+  font-size: 16px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+}
+
+.about__box:nth-child(2) {
+  border-color: #ec5453;
+}
+
+.about__box:nth-child(2) > i {
+  color: #ec5453;
+}
+
+.about__box:nth-child(3) {
+  border-color: #f9bf3f;
+}
+
+.about__box:nth-child(3) > i {
+  color: #f9bf3f;
+}
+
+.about__box:last-child {
+  border-color: #a84cb8;
+}
+
+.about__box:last-child > i {
+  color: #a84cb8;
+}
+
+.about__happy {
+  padding: 30px;
+  background: #f9bf3f;
+}
+
+.about__happy > h2 {
+  font-family: "Playfair Display", serif;
+  color: black;
+  font-weight: normal;
+  margin-bottom: 30px;
+  line-height: 1.5;
+  font-size: 30px;
+}
+
+.about__happy > button {
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 1px solid black;
+  padding: 2px 10px;
+  background: transparent;
+}
+@media screen and (min-width: 760px) {
+  .about__skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  .about__box {
+    flex-grow: 1;
+  }
+}
